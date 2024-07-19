@@ -50,7 +50,7 @@ const Add = ({url}) => {
           <p>Upload Image</p>
           <label htmlFor="image">
             <img
-              src={image ? URL.createObjectURL(image) : assets.profile_image}
+              src={image ? URL.createObjectURL(image) : assets.upload_area}
               alt=""
             />
           </label>
